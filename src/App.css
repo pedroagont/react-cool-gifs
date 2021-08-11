@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 body {
   background: dodgerblue;
   font-family: sans-serif;
@@ -6,17 +8,21 @@ body {
 }
 
 .title {
+  font-family: 'Bangers', cursive;
   color: gold;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 4em;
+  letter-spacing: 0.05em;
   margin-bottom: 0;
+  text-shadow: 2px 2px 1px black;
 }
 
 .description {
-  color: lavender;
+  color: white;
   text-align: center;
   font-size: 1.5em;
   font-family: monospace;
+  text-shadow: 1px 1px 1px black;
 }
 
 .links {
@@ -25,6 +31,7 @@ body {
   font-family: monospace;
   text-align: center;
   margin-bottom: 4em;
+  text-shadow: 0.5px 0.5px 0.5px black;
 }
 
 .links a {
