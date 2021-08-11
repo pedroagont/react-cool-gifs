@@ -7,7 +7,13 @@ function App() {
   const [modalGif, setModalGif] = useState();
   return (
     <>
-      <h4 className="title">Search GIFs</h4>
+      <h4 className="title">Cool Gifs App! 🔍👾</h4>
+      <p className="description">An easy app made with ReactJS + GIPHY SDK for Web 🚀📲</p>
+      <div className="links">
+        <a href="/">github</a>
+        <span> - </span>
+        <a href="/">pedroagont.com</a>
+      </div>
       <SearchExperience
           onGifClick={(gif, e) => {
           console.log("gif", gif);
